@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/chriserin/oss/hellosunshine/build/intermediates/pre-dexed/test/debug/espresso-1.1-bundled-20fc8dec2347491c2d133dbaeb7420b4d54fd9c7.jar"
+        jar="/Users/chriserin/oss/hellosunshine/libs/espresso-1.1-bundled.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="10fd9af4db388b2c22638b9b586b568c5a65f356"/>
+
+</pre-dex-items>

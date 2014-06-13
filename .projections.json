@@ -1,0 +1,7 @@
+{
+  "AndroidManifest.xml": {"type": "manifest"},
+  "src/com/hashrocket/hellochicago/*.java": {"type": "java"},
+  "res/layout/*.xml": {"type": "layout"},
+  "unit-tests/src/com/hashrocket/hellochicago/tests/*Test.java": {"type": "test"},
+  "*": {"make": "adb shell am instrument -w -e class com.hashrocket.hellochicago.HelloChicagoTest com.hashrocket.hellochicago.tests/android.test.InstrumentationTestRunner"}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hashrocket.hellosunshine.test">
+
+    <uses-sdk android:minSdkVersion="1" android:targetSdkVersion="1" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner"
+                     android:targetPackage="com.hashrocket.hellosunshine"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.hashrocket.hellosunshine"/>
+</manifest>
