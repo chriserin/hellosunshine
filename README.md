@@ -10,7 +10,7 @@
 
 ## Setup the environment.
 
-1.  Android sdk needs a home:
+*  Android sdk needs a home:
 ```
 ln -s /opt/android-sdk /wherever/you/unzipped/the/sdk/to
 ```
@@ -22,13 +22,13 @@ export PATH=$PATH:/opt/android-sdk/tools
 export PATH=$PATH:/opt/android-sdk/platform-tools
 ```
 
-2. Genymotion needs to know about it, so it can use the adb tool (android
+* Genymotion needs to know about it, so it can use the adb tool (android
    development bridge) to connect to the emulator from the cmdline.
 
 a. Open Genymotion and navigate to settings.
 b. Choose the adb tab and enter the path to your android sdk.
 
-3. run the android command
+* run the android command
 
 ```
 android
@@ -39,7 +39,7 @@ of android for the specific decives and api levels you are targeting.
 
 ## Create the Project!
 
-1. Navigate to the parent dir of your future project and enter this simple command.
+### Navigate to the parent dir of your future project and enter this simple command.
 
 ```
 android create project -p hellomoon -n HelloMoon -a Main -k com.hashrocket.hellomoon -g -v 0.11.+ -t 1
@@ -86,7 +86,7 @@ tool utilizing the Groovy language.  Groovy is a jvm scripting language.
 The current latest android gradle is 0.11.1 but they change quickly.  You can see which version is latest at the maven central repo [site][m].
 [m]: http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.android.tools.build%22%20AND%20a%3A%22gradle%22
 
-2. The gradle plugin updates faster than the sdk, this has created a situation
+*  The gradle plugin updates faster than the sdk, this has created a situation
    where android creates a src/instrumentTest for you, but the gradle plugin
    expects androidTest.  You must change the dirname.
 
